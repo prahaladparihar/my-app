@@ -7,20 +7,11 @@ class Series extends Component {
           seriesName : '',
           isFetching : false
         }
-        // componentDidMount(){
-        //   fetch('http://api.tvmaze.com/search/shows?q=vikings')      
-        //    .then((response) => response.json()) 
-        //   .then(json => this.setState({ series:json }))
-       
-        // }
-
 onSeriesInputChange = e => {
      this.setState({ seriesName: e.target.value, isFetching: true});
        fetch(`http://api.tvmaze.com/search/shows?q=${e.target.value}`)      
         .then((response) => response.json()) 
         .then(json => this.setState({ series:json, isFetching:false }));
-    // console.log(e)
-    // console.log(e.target.value)
 }
 
     render() {

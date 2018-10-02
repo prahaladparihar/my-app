@@ -11,7 +11,6 @@ class SingleSeries extends Component {
         .then(json => this.setState({ show: json }));
     }
     render () {
-        // console.log(this.props);  checking op
         const { show } = this.state;
         
         return (
@@ -31,8 +30,6 @@ class SingleSeries extends Component {
                    <p>Episodes: {show._embedded.episodes.length} </p>
                    
                   </div>
-
-
               }
             </div>
         )

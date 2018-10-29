@@ -6,3 +6,5 @@
 
  
  ![screenshot from 2018-10-02 19-33-20](https://user-images.githubusercontent.com/36411279/46353571-31495780-c67a-11e8-8e46-0eaf32d4bd92.png)
+
+In computing, React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
